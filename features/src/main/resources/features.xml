@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="com.rocketraman.test-karaf-verify.features-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
+
+  <feature name="feature-without-slf4j" description="feature without slf4j" version="${project.version}">
+    <bundle start-level="20">mvn:com.rocketraman.test-karaf-verify/bundle-without-slf4j/${project.version}</bundle>
+  </feature>
+
+  <feature name="feature-with-slf4j" description="feature with slf4j" version="${project.version}">
+    <bundle start-level="20">mvn:com.rocketraman.test-karaf-verify/bundle-with-slf4j/${project.version}</bundle>
+  </feature>
+
+</features>
