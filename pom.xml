@@ -37,7 +37,8 @@
         <module>bundle-with-slf4j</module>
         <module>bundle-without-slf4j</module>
         <module>features</module>
-        <module>dist</module>
+        <module>test-assembly</module>
+        <module>test-verify</module>
       </modules>
     </profile>
   </profiles>
